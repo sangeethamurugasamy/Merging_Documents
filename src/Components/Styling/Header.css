@@ -15,7 +15,17 @@
     width: 50px;
     margin-left: 10px;
     margin-right: 10px;
-    float: left;
+    /* float: left; */
+}
+.basLogo{
+    display:flex;
+    height: 30px;
+    width: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.icon{
+    display: flex;
 }
 .location{
     display: flex;
@@ -35,27 +45,30 @@
     align-items: center;
     justify-content: flex-end;
 }
-.login{
+.headlogin{
     color: black;
     font-weight: bolder;
 }
-.login:hover{
+.headlogin:hover{
     text-decoration: underline;
 }
-.cart{
+.headcart{
     color: black;
     font-weight: bolder;
 }
 .cart:hover{
     text-decoration: underline;
 }
-.sell
+.headsell
 {
     color: black;
     font-weight: bolder;
 }
-.sell:hover{
+.headsell:hover{
     text-decoration: underline;
+}
+.welnote{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 /* .sell{
     padding: 4px 18px;
