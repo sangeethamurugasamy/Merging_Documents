@@ -1,7 +1,8 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './Styling/Footer.css'
-import ChatBot from 'react-simple-chatbot';
+//import ChatBot from 'react-simple-chatbot';
+import Chatbot from './Chatbot'
 
 export class Footer extends React.Component{
     render(){
